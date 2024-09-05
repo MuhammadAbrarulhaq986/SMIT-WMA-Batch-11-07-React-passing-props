@@ -1,0 +1,118 @@
+body {
+  background-color: orangered;
+  margin: 10px;
+  padding: 10px;
+}
+h1 {
+  font-size: 36px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  transition: color 0.3s ease; /* add transition effect */
+}
+
+h1:hover {
+  color: gold; /* change color on hover */
+  box-shadow: 0px 0px 15px gold; /* add a subtle box shadow on hover */
+
+  text-decoration: dotted; /* add underline on hover */
+}
+
+.card-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  background-color: #333; /* dark background color */
+  padding: 20px;
+  /* width: auto; */
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  color: white;
+
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #0000007e;
+  box-shadow: -1px 2px 30px orange;
+  width: 300px;
+}
+
+.card-img-top {
+  width: 250px;
+  height: 200px;
+  margin-left: 20px;
+  margin-top: 5px;
+  align-items: center;
+  /* background-color: #0000007e; */
+}
+
+.card-body {
+  color: white;
+
+  padding: 20px;
+  text-align: center;
+  background-color: #0000007e;
+}
+
+.card-title {
+  text-shadow: -1px 2px 20px gold;
+  color: #ffffff;
+  background-color: #0000007e;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  text-shadow: -1px 2px 20px orange;
+  color: #ffffff;
+  background-color: #00000067;
+  font-size: 16px;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-content {
+  padding: 20px;
+  color: white; /* white text color */
+}
+
+.card-content h2 {
+  color: white; /* white text color */
+}
+
+.card-content p {
+  color: #ccc; /* light gray text color */
+}
+.card .btn {
+  background-color: #333; /* add a dark background to the button */
+  color: white; /* change the text color to a golden yellow */
+  height: 50px;
+  width: 60px;
+  border-radius: 50%; /* add a rounded corner effect */
+  padding: 10px; /* add some padding to make the button more prominent */
+  border: none; /* remove the default border */
+  cursor: pointer; /* add a pointer cursor on hover */
+}
+
+.card .btn:hover {
+  transform: scale(1.1); /* add a slight zoom effect on hover */
+  transition: all 0.3s ease-in-out; /* add a smooth transition effect */
+  box-shadow: 0px 0px 15px gold; /* add a subtle box shadow on hover */
+  color: gold;
+}
